@@ -1,1 +1,104 @@
-<html></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rubik's Cube Algorithm Vault</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: linear-gradient(to bottom right, #ebf8ff, #c3dafe);
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #4c51bf;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.125rem;
+      color: #4a5568;
+      margin-bottom: 2rem;
+    }
+
+    .search-bar {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .search-bar input {
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+      border: 1px solid #ccc;
+      width: 60%;
+    }
+
+    .search-bar button {
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 1rem;
+      background-color: #4c51bf;
+      color: white;
+      cursor: pointer;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .card h2 {
+      font-size: 1.25rem;
+      color: #4c51bf;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      color: #4a5568;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Rubik's Cube Algorithm Vault</h1>
+    <p>Your one-stop hub for algorithms across 2x2 and 3x3 cubes.</p>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Search for an algorithm..." />
+      <button>Search</button>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>2x2 Cube</h2>
+        <p>Beginner and advanced methods</p>
+      </div>
+      <div class="card">
+        <h2>3x3 Cube</h2>
+        <p>CFOP, Roux, and more</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
